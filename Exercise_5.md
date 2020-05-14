@@ -48,7 +48,7 @@ Reference: [SqueezeNet](https://github.com/forresti/SqueezeNet)
 5. To convert a Caffe Model, we use `mo.py` file as we did in TensorFlow model convertion and specify `--input_proto` because the `.prototxt` file is not named the same as the model:
 
 ```python
-python /opt/intel/openvino/deployment_tools/model_optimizer/mo.py \
+python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py \
   --input_model squeezenet_v1.1.caffemodel \
   --input_proto deploy.prototxt
 ```
