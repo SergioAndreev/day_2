@@ -22,4 +22,8 @@ You will need the following for sure =)
 
 *Remeber to listen to me =) I will describe you this gigantic command in Zoom!*
 
-9. Navigate to 
+9. If conversion completed successfully you should see something like that: 
+
+<img src="img/1.png">
+
+10. Check, whether you have `frozen_inference_graph.bin` and `frozen_inference_graph.xml` in your current directory
