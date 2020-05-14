@@ -12,6 +12,17 @@ You will need the following for sure =)
 
 5. After completing the download, use `tar -xvf _the_name_of_the_archive_` to unpack it. (instead of `_the_name_of_the_archive_` use `ssd_mobilenet_v2_coco_2018_03_29.tar.gz`). 
 
+<details><summary>Short info about tar</summary>
+<p>
+
+`tar` is command for handling `**.tar.gz` file.
+`x:` Extract a tar file.
+`v:` Verbose output or show progress while extracting files.
+`f:` Specify an archive or a tar filename.
+
+</p>
+</details>
+
 *Remember that you do not need to copy the name of the archive from here! Just type* `tar -xvf ssd` *and then press Tab to autofill*
 
 6. Delete the archive `rm _name_of_the_archive_`
