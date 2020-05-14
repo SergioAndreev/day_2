@@ -14,8 +14,7 @@
 
 7. Using the `mo_tf.py` script, convert `AlexNet` model to an IR model.
 
-`python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py \
-  --input_model /home/workspace/bvlc_alexnet/model.onnx`
+`python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model /home/sensors/Downloads/ONNX/bvlc_alexnet/model.onnx`
 
 <details><summary>Details about the command</summary>
 <p>
