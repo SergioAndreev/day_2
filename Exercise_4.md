@@ -24,6 +24,6 @@ You will need the following for sure =)
 
 9. If conversion completed successfully you should see something like that: 
 
-<img align = "middle" src="img/1.png" width = "720" height = "540">
+<img src="img/1.png" width = "720" height = "540" align = "middle">
 
 10. Check, whether you have `frozen_inference_graph.bin` and `frozen_inference_graph.xml` in your current directory
