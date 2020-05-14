@@ -1,6 +1,6 @@
 ### Exercise 5: Converting Caffe Model to Intermediate Representation
 
-1. Navigate to `/home/sensors/Downloads/
+1. Navigate to `/home/sensors/Downloads/`
 2. Create new directory `Caffe`
 3. Download the SqueezeNet model from [here](https://github.com/forresti/SqueezeNet) using the following command:
 
