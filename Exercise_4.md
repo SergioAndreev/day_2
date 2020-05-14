@@ -16,8 +16,11 @@ You will need the following for sure =)
 <p>
 
 `tar` is command for handling `**.tar.gz` file.
+
 `x:` Extract a tar file.
+
 `v:` Verbose output or show progress while extracting files.
+
 `f:` Specify an archive or a tar filename.
 
 </p>
