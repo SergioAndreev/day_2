@@ -50,5 +50,28 @@ Reference: [SqueezeNet](https://github.com/forresti/SqueezeNet)
 ```python
 python /opt/intel/openvino/deployment_tools/model_optimizer/mo.py \
   --input_model squeezenet_v1.1.caffemodel \
-  --input_proto deploy.prototxt```
+  --input_proto deploy.prototxt
+```
+
+<details><summary>Detailed description of the command</summary>
+<p> 
   
+  `python /opt/intel/openvino/deployment_tools/model_optimizer/mo.py` - the `mo.py` script to simply convert a model
+
+`--input_model squeezenet_v1.1.caffemodel` - the path to the input model `.caffemodel` file
+
+`--input_proto deploy.prototxt` - it specifies deploy-ready `.prototxt` file
+</p>
+</details>
+
+6. You need to see the log:
+
+```python
+# omitted ...
+[ SUCCESS ] Generated IR model.
+[ SUCCESS ] XML file: /home/workspace/SqueezeNet/SqueezeNet_v1.1/./squeezenet_v1.1.xml
+[ SUCCESS ] BIN file: /home/workspace/SqueezeNet/SqueezeNet_v1.1/./squeezenet_v1.1.bin
+[ SUCCESS ] Total execution time: 5.88 seconds.
+```
+
+7. Use `ls` to check, that you have IR files: `.xml` and `.bin`
