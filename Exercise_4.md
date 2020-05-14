@@ -14,7 +14,9 @@ You will need the following for sure =)
 
 *Remember that you do not need to copy the name of the archive from here! Just type* `tar -xvf ssd` *and then press Tab to autofill*
 
-6. To convert Tensorflow model to Intermediate Representation, use the command: 
+6. Delete the archive `rm _name_of_the_archive_`
+7. Navigate to new folder `ssd_mobilenet_v2_coco_2018_03_29`
+8. To convert Tensorflow model to Intermediate Representation, use the command: 
 
 `python /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model frozen_inference_graph.pb --tensorflow_object_detection_api_pipeline_config pipeline.config --reverse_input_channels --tensorflow_use_custom_operations_config /opt/intel/openvino/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json`
 
