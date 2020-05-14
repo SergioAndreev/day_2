@@ -29,12 +29,11 @@
 
 8. Expected log:
 
-`# omitted ...
-[ SUCCESS ] Generated IR model.
+`# omitted ... \
+[ SUCCESS ] Generated IR model. \
 
-[ SUCCESS ] XML file: /home/workspace/bvlc_alexnet/./model.xml
+[ SUCCESS ] XML file: /home/workspace/bvlc_alexnet/./model.xml \
 
-[ SUCCESS ] BIN file: /home/workspace/bvlc_alexnet/./model.bin
-`
+[ SUCCESS ] BIN file: /home/workspace/bvlc_alexnet/./model.bin`
 
 9. Check, that you have converted the model to `model.xml` and `model.bin` files.
