@@ -8,11 +8,7 @@
 <details><summary>git clone log</summary>
 <p>
 ```python
-Cloning into 'SqueezeNet'...
-remote: Enumerating objects: 107, done.
-remote: Total 107 (delta 0), reused 0 (delta 0), pack-reused 107
-Receiving objects: 100% (107/107), 8.83 MiB | 0 bytes/s, done.
-Resolving deltas: 100% (49/49), done.
-Checking connectivity... done.```
+print("hello world!")
+```
 </p>
 </details>
