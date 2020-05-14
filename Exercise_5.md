@@ -7,8 +7,10 @@
 
 <details><summary>git clone log</summary>
 <p>
+
 ```python
 print("hello world!")
 ```
+
 </p>
 </details>
