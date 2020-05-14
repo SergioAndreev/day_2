@@ -31,7 +31,9 @@
 
 `# omitted ...
 [ SUCCESS ] Generated IR model.
+
 [ SUCCESS ] XML file: /home/workspace/bvlc_alexnet/./model.xml
+
 [ SUCCESS ] BIN file: /home/workspace/bvlc_alexnet/./model.bin
 `
 
