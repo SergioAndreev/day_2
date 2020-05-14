@@ -6,7 +6,7 @@ You will need the following for sure =)
 1. Navigate to `/home/sensors/Downloads`
 2. Create here the folder `TF`
 3. Go inside the `TF` folder
-4. Download `MobileNet SSD` from the website. To do that type `wget _link_` (instead of `_link_` paste this: http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz). 
+4. Download `MobileNet SSD` from the website. To do that type in the terminal: `wget _link_` (instead of `_link_` paste this: http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz). 
 
 *Remember, that you need to use `Ctrl+Shift+V` combination to be able to paste the link to the terminal.*
 
