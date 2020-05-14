@@ -3,7 +3,7 @@ You will need the following for sure =)
 
 ### Exercise 4: Converting Tensorflow Model
 
-1. Navigate to `/home/sensors/Downloads`
+1. Navigate to `/home/sensors/Downloads/`
 2. Create here the folder `TF`
 3. Go inside the `TF` folder
 4. Download `MobileNet SSD` from the website. To do that type in the terminal: `wget _link_` (instead of `_link_` paste this: http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz). 
