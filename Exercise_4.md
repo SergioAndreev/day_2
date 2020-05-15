@@ -33,13 +33,42 @@ You will need the following for sure =)
 8. To convert Tensorflow model to Intermediate Representation, use the command: 
 
 ```bash
-python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model frozen_inference_graph.pb --tensorflow_object_detection_api_pipeline_config pipeline.config --reverse_input_channels --tensorflow_use_custom_operations_config /opt/intel/openvino/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json
+python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py \
+--input_model frozen_inference_graph.pb \
+--tensorflow_object_detection_api_pipeline_config pipeline.config \
+--reverse_input_channels \
+--tensorflow_use_custom_operations_config /opt/intel/openvino/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json
 ```
 
-*Remeber to listen to me =) I will describe you this gigantic command in Zoom!*
+How is it possible to undetstand such a command :interrobang:
+
+<details><summary>Short info about tar</summary>
+<p>
+
+`/opt/intel/openvino/deployment_tools/model_optimizer/mo_tf.py` - the path of the model converter script
+
+`--input_model frozen_inference_graph.pb` - option treats the input model file as a text protobuf format
+
+`--tensorflow_object_detection_api_pipeline_config pipeline.config` - path to the pipeline configuration file used to generate model created with help of Object Detection API.
+
+`--reverse_input_channels` - revert input channels from RGB to BGR due to the TensorFlow models being trained on RGB images, but the Inference Engine otherwise defaulting to BGR.
+
+`--tensorflow_use_custom_operations_config /opt/intel/openvino/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json` - use the configuration file with custom operation description. (which is also located in 
+
+</p>
+</details>
 
 9. If conversion completed successfully you should see something like that: 
 
 <img src="img/1.png" width = "720" height = "540" align = "middle">
 
 10. Check, whether you have `frozen_inference_graph.bin` and `frozen_inference_graph.xml` in your current directory
+
+<details><summary>And finally!!!</summary>
+<p>
+
+You have done it! You are amazing! :muscle: :muscle: 
+
+</p>
+</details>
+
