@@ -9,7 +9,7 @@ As a reminder, our three models are:
 - Text Detection: [text-detection-0004](http://docs.openvinotoolkit.org/latest/_models_intel_text_detection_0004_description_text_detection_0004.html)
 - Determining Car Type & Color: [vehicle-attributes-recognition-barrier-0039](https://docs.openvinotoolkit.org/latest/_models_intel_vehicle_attributes_recognition_barrier_0039_description_vehicle_attributes_recognition_barrier_0039.html)
 
-**Note:** For ease of use, these models have been added into the `/home/workspace/models`
+**Note:** For ease of use, these models have been added into the `/home/sensors/PycharmProjects/Exercises/Exercise_2/models`
 directory. For example, if you need to use the Text Detection model, you could find it at:
 
 ```bash
