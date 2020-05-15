@@ -32,7 +32,9 @@ You will need the following for sure =)
 7. Navigate to new folder `ssd_mobilenet_v2_coco_2018_03_29`
 8. To convert Tensorflow model to Intermediate Representation, use the command: 
 
-`python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model frozen_inference_graph.pb --tensorflow_object_detection_api_pipeline_config pipeline.config --reverse_input_channels --tensorflow_use_custom_operations_config /opt/intel/openvino/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json`
+```bash
+python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model frozen_inference_graph.pb --tensorflow_object_detection_api_pipeline_config pipeline.config --reverse_input_channels --tensorflow_use_custom_operations_config /opt/intel/openvino/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json
+```
 
 *Remeber to listen to me =) I will describe you this gigantic command in Zoom!*
 
