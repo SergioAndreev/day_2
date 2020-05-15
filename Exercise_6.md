@@ -27,7 +27,7 @@
 </details>
 
 8. Expected log:
-```python
+```bash
 # omitted ... 
 [ SUCCESS ] Generated IR model. 
 [ SUCCESS ] XML file: /home/sensors/Downloads/ONNX/bvlc_alexnet/./model.xml
