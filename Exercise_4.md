@@ -42,7 +42,7 @@ python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py \
 
 How is it possible to undetstand such a command :interrobang:
 
-<details><summary>Short info about tar</summary>
+<details><summary>Description of the command</summary>
 <p>
 
 `/opt/intel/openvino/deployment_tools/model_optimizer/mo_tf.py` - the path of the model converter script
