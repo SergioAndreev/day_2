@@ -9,7 +9,7 @@
 <details><summary>git clone log</summary>
 <p>
 
-```python
+```bash
 Cloning into 'SqueezeNet'...
 remote: Enumerating objects: 107, done.
 remote: Total 107 (delta 0), reused 0 (delta 0), pack-reused 107
@@ -66,7 +66,7 @@ python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py \
 
 6. You need to see the log:
 
-```python
+```bash
 # omitted ...
 [ SUCCESS ] Generated IR model.
 [ SUCCESS ] XML file: /home/workspace/SqueezeNet/SqueezeNet_v1.1/./squeezenet_v1.1.xml
