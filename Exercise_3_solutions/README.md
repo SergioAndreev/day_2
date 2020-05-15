@@ -41,7 +41,7 @@ The results of your output will be saved down for viewing in the `outputs` direc
 As an example, here is an example of running the app with related arguments:
 
 ```
-python app.py -i "images/blue-car.jpg" -t "CAR_META" -m "/home/workspace/models/vehicle-attributes-recognition-barrier-0039.xml" -c "/opt/intel/openvino/deployment_tools/inference_engine/lib/intel64/libcpu_extension_sse4.so"
+python3 app.py -i "images/blue-car.jpg" -t "CAR_META" -m "/home/ensors/PycharmProjects/Exercises/Exercise_2/models/vehicle-attributes-recognition-barrier-0039.xml" 
 ```
 
 ## Model Documentation
