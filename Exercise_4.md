@@ -67,7 +67,7 @@ How is it possible to undetstand such a command :interrobang:
 <details><summary>And finally!!!</summary>
 <p>
 
-You have done it! You are amazing! :muscle: :muscle: 
+You have done it! You are amazing! :muscle: :muscle: :metal:
 
 </p>
 </details>
