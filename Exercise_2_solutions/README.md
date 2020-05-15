@@ -13,7 +13,7 @@ As a reminder, our three models are:
 directory. For example, if you need to use the Text Detection model, you could find it at:
 
 ```bash
-/home/workspace/models/text_detection_0004.xml
+/home/sensors/PycharmProjects/Exercises/Exercise_2/models/text_detection_0004.xml
 ```
 
 Each link above contains the documentation for the related model. In our case, we want to 
